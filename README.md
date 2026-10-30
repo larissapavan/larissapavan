@@ -14,14 +14,19 @@ I build and maintain AI applications in production, develop intelligent agents, 
 **Business platforms:** `Microsoft Dynamics 365` `Power Platform` `Dataverse`
 
 ## 🚀 Featured Projects
- 
-### 🥊 [Fight Intelligence](https://fight-intelligence.vercel.app/)
-End-to-end UFC analytics platform with explainable fight predictions: every win probability comes with a SHAP breakdown of the features behind it.
- 
-- Gradient boosting model with temporal train/test split: **74.7% accuracy**, **0.82 ROC AUC** (vs. 56.4% baseline)
-- Daily data refresh from public sources via GitHub Actions, with a validation step that rejects broken updates
-- FastAPI back end, React + TypeScript front end, ~100 pytest tests and CI
-- [Source code](https://github.com/larissapavan/fight-intelligence)
+
+### 🥊 [Vektor MMA](https://github.com/larissapavan/vektormma)
+
+MMA intelligence platform focused on fighter performance analytics, matchup analysis, and machine learning-driven fight predictions. Combining data engineering, predictive modeling, and explainable AI to transform fight statistics into actionable insights.
+
+- **Machine Learning:** 46-feature Gradient Boosting model with temporal train/test validation, achieving **74.7% accuracy** and **0.82 ROC AUC**, outperforming the **56.4% baseline**. Evaluated against Logistic Regression and Random Forest.
+- **Explainable AI:** SHAP-based feature analysis to explain individual fight predictions and identify the factors influencing win probabilities.
+- **Data Engineering:** Automated daily data collection from ESPN, UFC.com, and UFC Stats using web scrapers and GitHub Actions, with validation checks to prevent corrupted or incomplete updates.
+- **Backend:** Python and FastAPI REST API, deployed on Render, with rate limiting and structured data processing.
+- **Frontend:** React 19, TypeScript, Vite, and Tailwind CSS, deployed on Vercel.
+- **Quality & CI/CD:** Approximately 100 automated pytest tests, integrated CI pipeline, linting, and strict TypeScript build validation.
+- [Live Platform](https://www.vektormma.com/) | [Source Code](https://github.com/larissapavan/vektormma)
+  
 ### 🎓 [EduBot](https://edubot-projeto-academico.vercel.app/)
 Academic project.
  
