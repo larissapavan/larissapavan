@@ -28,7 +28,7 @@ MMA intelligence platform focused on fighter performance analytics, matchup anal
 - [Live Platform](https://www.vektormma.com/) | [Source Code](https://github.com/larissapavan/vektormma)
   
 ### 🎓 [EduBot](https://edubot-projeto-academico.vercel.app/)
-Academic project.
+Intelligent academic platform developed to centralize USCS information, making it easier to access academic content through an intuitive and interactive interface.
  
 ### 🔬 [GELC-USCS](https://larissapavan.github.io/gelc-uscs/)
 Undergraduate research in Computational Linguistics and NLP: a web application for diachronic analysis of Brazilian Portuguese, tracking how expressions change over the decades. Full pipeline from web scraping to structured corpora and semantic experiments.
